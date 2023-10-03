@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Roboto","Arial",sans-serif;
+    /* padding-bottom: 1000px; */
+    /* background-color: whitesmoke; */
+    padding-left: 260px;
+    padding-top: 140px ;
+
+    color: black;
+}
+
+@media(max-width:800px){
+    body{
+        padding: 90px 5px 5px 5px;
+    }
+}

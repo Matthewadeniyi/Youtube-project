@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <!-- Google Fonts -->
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <!-- Link For StyleSheets -->
+
+    <!-- Header styles -->
+    <link rel="stylesheet" href="styles/header.css">
+
+    <!-- sidebar styles -->
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+    <!-- body styles -->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- video styles -->
+    <link rel="stylesheet" href="styles/video.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="left-section">
+            <div>
+                <img src="icons/hamburger-menu.svg" alt="hamburger-menu" class="hamburger-menu">
+            </div>
+            <div>
+                <img src="icons/youtube-logo.svg" alt="hamburger-menu" class="youtube-logo"> 
+            </div>
+        </div>
+
+        <div class="middle-section">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-button">
+                <img src="icons/search.svg" class="search-icon" alt="search-icon">
+                <div class="tooltips">Search</div>
+            </button>
+
+            <button class="voice-search-button">
+                <img src="icons/voice-search-icon.svg" class="search-icon" alt="voice-search-icon">
+                <div class="tooltips">Search With Your Voice</div>
+
+            </button>
+        </div>
+        
+        <div class="right-section">
+            
+            <div class="upload-button">
+                <img src="icons/upload.svg" alt="upload-icon" class="upload-icon">
+                <div class="tooltips">Create</div>
+            </div>
+
+            <div class="notifications-icon-container">
+                <img src="icons/notifications.svg" class="notification-icon">
+                <div class="tooltips">Notifications</div>
+            </div>
+
+            <div class="profile-image">
+                <img src="channel-pictures/profile-image.jpg" class="profile-picture">
+
+            </div>
+        </div>
+    </header>
+
+    <!-- links below header -->
+
+    <div class="below">
+        <div class="below-header" id="all">
+            <button>All</button>
+        </div>
+        <div class="below-header">
+            <button>Range Rover</button>
+        </div>
+        <div class="below-header">
+            <button>Personal Luxury Cars</button>
+        </div>
+        <div class="below-header">
+            <button>Cameras</button>
+        </div>
+        <div class="below-header">
+            <button>Html</button>
+        </div>
+        <div class="below-header">
+            <button>Computers</button>
+        </div>
+        <div class="below-header">
+            <button>Mansions</button>
+        </div>
+        <div class="below-header">
+            <button>Apartments</button>
+        </div>
+        <div class="below-header">
+            <button>Gaming</button>
+        </div>
+        <div class="below-header">
+            <button>Foreign Exchange</button>
+        </div>
+    </div>
+
+    <!-- sidebar -->
+    <nav class="sidebar">
+
+        <div class="sidebar-items" id="home">
+            <div>
+                <img src="icons/home.svg">
+            </div>
+            <p>Home</p>
+        </div>
+        
+        <div class="sidebar-items">
+            <div>
+                <img src="icons/short.svg">
+            </div>
+            <p>Shorts</p>
+        </div>
+
+        <div class="sidebar-items">
+            <div>
+                <img src="icons/subscriptions.svg">
+            </div>
+            <p>Subscriptions</p>
+        </div>
+
+        <hr>
+
+        <div class="sidebar-items">
+            <div>
+                <img src="icons/library.svg">
+            </div>
+            <p>Library</p>
+        </div>
+
+        <div class="sidebar-items">
+            <div>
+                <img src="icons/history-7611.svg">
+            </div>
+            <p>History</p>
+        </div>
+
+        <div class="sidebar-items">
+            <div>
+                <img src="icons/watch-later.svg">
+            </div>
+            <p>Watch later</p>
+        </div>
+
+        <div class="sidebar-items">
+            <div>
+                <img src="icons/like.png">
+            </div>
+            <p>Liked Videos...</p>
+        </div>
+
+        <div class="sidebar-items">
+            <div>
+                <img src="icons/hamburger-menu.svg">
+            </div>
+            <p>The Honest Bunch...</p>
+        </div>
+        <div class="sidebar-items">
+            <div>
+                <img src="icons/hamburger-menu.svg">
+            </div>
+            <p>Web Development...</p>
+        </div>
+
+            <hr>
+
+            <p class="subscriptions">Subscriptions</p>
+
+        <div class="sidebar-items">
+            <div>
+                <img src="channel-pictures/profile-image.jpg" class="home-icon">
+            </div>
+            <p>234 Drive</p>
+        </div>
+
+        <div class="sidebar-items">
+            <div>
+                <img src="channel-pictures/profile-image.jpg" class="home-icon">
+            </div>
+            <p>Accelerate Tv</p>
+        </div>
+
+        <div class="sidebar-items">
+            <div>
+                <img src="channel-pictures/profile-image.jpg" class="home-icon">
+            </div>
+            <p>Adrian Twarog</p>
+        </div>
+    </nav>
+            <!-- End of SideBar -->
+
+            <!-- Video Section Of the Page -->
+            <section class="video-preview">
+
+                <div class="video-grid">
+                    <div class="thumbnail-row">
+                        <img src="channel-pictures/channel-picture-1.webp" class="channel-pictures">
+                        <div class="video-time">4:00</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div>
+                            <img src="profile-pictures/channel-1.jpeg" class="profile-image">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Javascript Full Course(2023) - Beginner To Pro-Part 1</p>
+                            <p class="video-author">Supersimpledev</p>
+                            <p class="video-stats">2M Views &#183; 5months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-grid">
+                    <div class="thumbnail-row">
+                        <img src="channel-pictures/channel-picture-1.webp" class="channel-pictures">
+                        <div class="video-time">6:00:10</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div>
+                            <img src="profile-pictures/channel-1.jpg" class="profile-image">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Javascript Full Course(2023) - Beginner To Pro-Part 1</p>
+                            <p class="video-author">Supersimpledev</p>
+                            <p class="video-stats">2M Views &#183; 5months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-grid">
+                    <div class="thumbnail-row">
+                        <img src="channel-pictures/channel-picture-2.webp" class="channel-pictures">
+                        <div class="video-time">8:00</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div>
+                            <img src="profile-pictures/channel-2.jpeg" class="profile-image">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Touring Fisayo Fosudo's $50,000 YouTube Studio</p>
+                            <p class="video-author">Ibiduni Oladayo</p>
+                            <p class="video-stats">1K Views &#183; 8hours ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-grid">
+                    <div class="thumbnail-row">
+                        <img src="channel-pictures/channel-picture-3.webp" class="channel-pictures">
+                        <div class="video-time">24:00</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div>
+                            <img src="profile-pictures/channel-3.jpg" class="profile-image">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Exclusive Interview With The Vice-Chancellor of Sam Marris..</p>
+                            <p class="video-author">E-connect Campus Tv</p>
+                            <p class="video-stats">6 Views &#183; 2hours ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-grid">
+                    <div class="thumbnail-row">
+                        <img src="channel-pictures/channel-picture-4.webp" class="channel-pictures">
+                        <div class="video-time">9:00</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div>
+                            <img src="profile-pictures/channel-4.jpeg" class="profile-image">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">2023 Range Rover Sport Versus Velar</p>
+                            <p class="video-author">Vagabond Builds</p>
+                            <p class="video-stats">231k Views &#183; 5months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-grid">
+                    <div class="thumbnail-row">
+                        <img src="channel-pictures/channel-picture-5.webp" class="channel-pictures">
+                        <div class="video-time">1:04:00</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div>
+                            <img src="profile-pictures/channel-5.jpeg" class="profile-image">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">ASMR Programming- Character Showcase Gallery Using HTML CSS..</p>
+                            <p class="video-author">ProgProd</p>
+                            <p class="video-stats">534 Views &#183; 2days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <hr class="hr-body">
+
+            <!-- Youtube-shorts-section -->
+            <div class="short">
+                <img src="icons/short.svg" class="text-short">
+                <p>Shorts</p>
+                <div class="cancel">X</div>
+            </div>
+            <section class="short-preview">
+                <div class="short-grid">
+                    <div class="short-thumbnail">
+                        <img src="short-pictures/short-picture-1.webp" class="short-pictures">
+                    </div>
+                    <p class="short-title">Dream Home Mega Mansion Reveal</p>
+                    <p class="short-stats">1.7k Views</p>
+                </div>
+                <div class="short-grid">
+                    <div class="short-thumbnail">
+                        <img src="short-pictures/short-picture-2.webp" class="short-pictures">
+                    </div>
+                    <p class="short-title">Congratulations Mr <br>Azeez</p>
+                    <p class="short-stats">9.9M Views</p>
+                </div>
+                <div class="short-grid">
+                    <div class="short-thumbnail">
+                        <img src="short-pictures/short-picture-3.webp" class="short-pictures">
+                    </div>
+                    <p class="short-title">Samsung ark 55inch <br> Monitor unboxing</p>
+                    <p class="short-stats">6.6M Views</p>
+                </div>
+                <div class="short-grid">
+                    <div class="short-thumbnail">
+                        <img src="short-pictures/short-picture-4.webp" class="short-pictures">
+                    </div>
+                    <p class="short-title">Exposing Nigeria's <br> Richest Young..</p>
+                    <p class="short-stats">24k Views</p>
+                </div>
+                <div class="short-grid">
+                    <div class="short-thumbnail">
+                        <img src="short-pictures/short-picture-5.webp" class="short-pictures">
+                    </div>
+                    <p class="short-title">Range Rover</p>
+                    <p class="short-stats">2.4M Views</p>
+                </div>
+                
+            </section>
+            <!-- End of Youtube-Shorts Section -->
+            <hr class="hr-body">
+
+            <!-- video section continuation -->
+            <section class="video-preview second">
+
+                <div class="video-grid">
+                    <div class="thumbnail-row">
+                        <img src="channel-pictures/channel-picture-6.webp" class="channel-pictures">
+                        <div class="video-time">12:00</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div>
+                            <img src="profile-pictures/channel-6" class="profile-image">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Last Time seeing Her, Re-united With Dice</p>
+                            <p class="video-author">MosedLdn</p>
+                            <p class="video-stats">4.2k Views &#183; 5hours ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-grid">
+                    <div class="thumbnail-row">
+                        <img src="channel-pictures/channel-picture-7.webp" class="channel-pictures">
+                        <div class="video-time">8:00</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div>
+                            <img src="profile-pictures/channel-7.jpeg" class="profile-image">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">When A laptop Tries Too Hard</p>
+                            <p class="video-author">Dave2D</p>
+                            <p class="video-stats">52k Views &#183; 2hours ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-grid">
+                    <div class="thumbnail-row">
+                        <img src="channel-pictures/channel-picture-8.webp" class="channel-pictures">
+                        <div class="video-time">13:00</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div>
+                            <img src="profile-pictures/channels-8.jpg" class="profile-image">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Nigeria's Most Problematic Car | Nissan Murano Review</p>
+                            <p class="video-author">234 Drive</p>
+                            <p class="video-stats">591 Views &#183; 5 hours ago</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            <hr class="hr-body">
+
+            <div class="short">
+                <img src="icons/short.svg" class="text-short">
+                <p>Shorts</p>
+                <div class="cancel">X</div>
+            </div>
+            <section class="short-preview">
+
+                <div class="short-grid">
+                    <div class="short-thumbnail">
+                        <img src="short-pictures/short-picture-6.webp" class="short-pictures">
+                    </div>
+                    <p class="short-title">Dream Home Mega Mansion Reveal</p>
+                    <p class="short-stats">1.7k Views</p>
+                </div>
+                <div class="short-grid">
+                    <div class="short-thumbnail">
+                        <img src="short-pictures/short-picture-7.webp" class="short-pictures">
+                    </div>
+                    <p class="short-title">Dream Home Mega Mansion Reveal</p>
+                    <p class="short-stats">1.7k Views</p>
+                </div>
+                <div class="short-grid">
+                    <div class="short-thumbnail">
+                        <img src="short-pictures/short-picture-8.webp" class="short-pictures">
+                    </div>
+                    <p class="short-title">Dream Home Mega Mansion Reveal</p>
+                    <p class="short-stats">1.7k Views</p>
+                </div>
+                <div class="short-grid">
+                    <div class="short-thumbnail">
+                        <img src="short-pictures/short-picture-9.webp" class="short-pictures">
+                    </div>
+                    <p class="short-title">Dream Home Mega Mansion Reveal</p>
+                    <p class="short-stats">1.7k Views</p>
+                </div>
+                <div class="short-grid">
+                    <div class="short-thumbnail">
+                        <img src="short-pictures/short-picture-10.webp" class="short-pictures">
+                    </div>
+                    <p class="short-title">Dream Home Mega Mansion Reveal</p>
+                    <p class="short-stats">1.7k Views</p>
+                </div>
+
+            </section>
+</body>
+
+</html>
