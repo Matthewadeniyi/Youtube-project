@@ -92,6 +92,16 @@
         padding-right: 10px;
         z-index: 99;
     }
+
+    .below-header button{
+        border-style: none;
+        background-color: #f5f5f5;
+        padding: 3px;
+        border-radius: 9px;
+        cursor: pointer;
+        font-family: Roboto,Arial;
+        white-space: nowrap;
+    }
 }
 #all button{
     background-color: black;
